@@ -39,17 +39,17 @@ int main(void) {
 
   /* Initialization of all the imported components in the order specified in
      the application wizard. The function is generated automatically.*/
-  componentsInit();
+  componentsInit(); //-->component.c
 
   /* Enable Interrupts */
-  irqIsrEnable();
+  irqIsrEnable(); //-->irq.c
 
   /* Start the gateway task */
-  error = gateway_start();
+  error = gateway_start(); //-->gateway.c
 
   if (!error) {
     /* Start the remote device emulation task */
-    error = remote_start();
+    error = remote_start(); //-->remote.c
   }
 
   if (!error) {
