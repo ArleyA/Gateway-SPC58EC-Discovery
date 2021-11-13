@@ -55,7 +55,7 @@ int main(void) {
   if (!error) {
 
     /* Start all tasks */
-    vTaskStartScheduler();
+    vTaskStartScheduler(); //-->tasks.c --ver readme para descargar carpeta completa(git hub no deja subir mas de 100 archivos)--
   }
 
 
