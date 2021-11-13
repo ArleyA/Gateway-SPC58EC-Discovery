@@ -1,4 +1,7 @@
 # Gateway-SPC58EC-Discovery
+proyecto completo
+https://mega.nz/folder/GeoH0AqC#7dsrBSL63ISXiZdSeBxODg
+
 Pruebas de comunicación Ethernet
 
 Datos:
