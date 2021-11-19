@@ -31,7 +31,7 @@ Este respondio, por lo tanto poseia comunicaciรณn con el pc
 
 3.posteriormente con el siguiente comando se establecio una comunicaciรณn de escucha con el dispositivo
 
-$netcat -lu 192.168.1.2 1500
+$netcat -lu 192.168.1.1 1500
 
 Al reiniciar el dispositivo gateway, este debe enviar información de su conexión ethernet
 
